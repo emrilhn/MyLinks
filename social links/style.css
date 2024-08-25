@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: #f1f1f1;
+    background-image: url(assets/img/manzara.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-media{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.social-media div {
+    display: inline;
+    
+    
+}
+
+.social-media div a{
+    display: inline-flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    font-size: 45px;
+    background: #1a232f;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    
+    
+    
+    margin: 0 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-media .facebook i{
+   color: #ffffff;
+}
+
+.social-media .twitter i{
+    color: #ffffff;
+ }
+ .social-media .instagram i{
+    color: #ffffff;
+ }
+ .social-media .github i{
+    color: #ffffff;
+ }
+ .social-media .google i{
+    color: #ffffff;
+ }
+
+ .social-media .facebook  a:hover{
+    background:  white;
+    transition: 0.7s all;
+    border: transparent;
+    
+}
+.social-media .github  a:hover{
+    background:  rgb(0, 0, 0);
+    transition: 0.7s all;
+    border: transparent;
+    border-radius: 50%;
+    
+}
+.social-media .google  a:hover{
+    background:  #e84a38;
+    transition:  0.4s ease-in;
+    border: 1px solid black;
+    
+}
+.social-media .instagram  a:hover{
+    
+    border: transparent;
+    
+}
+.social-media .twitter  a:hover{
+    background: white;
+    transition:  0.4s ease-in;
+    
+    border: 1px solid #1da1f2;
+    
+}
+.social-media .facebook  a:hover >i{
+    background:  transparent;
+    color:  #4267B2;
+    transform: scale(1.7) rotate(360deg) ;
+    
+}
+.social-media .twitter  a:hover >i{
+    background:  transparent;
+    color:  #1da1f2;
+    transform: scale(2) rotate(360deg) ;
+    
+}
+.social-media .instagram  a:hover >i{
+    background:  transparent;
+    color:  #ffffff;
+    transform: scale(1.78) rotate(360deg) ;
+    
+}
+.social-media .github  a:hover >i{
+    background:  rgb(255, 255, 255);
+    
+    color:  #000000;
+    border-radius: 50%;
+    border: 1px;
+    border-color: black;
+    transform: scale(1.98) rotate(360deg) ;
+    
+}
+
+.social-media .google  a:hover >i{
+    background:  transparent;
+    color:  #ffffff;
+    transform: scale(1.65) rotate(360deg) ;
+    
+    
+}
+.social-media a i{
+    transition: 0.7s all;
+}
+
+.social-media a:hover > i{
+    transform: scale(1) rotate(360deg) ;
+}
